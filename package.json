@@ -1,0 +1,37 @@
+{
+  "name": "mpds-add-field",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react-dom": "^17.0.1",
+    "react": "^17.0.1",
+    "rollup": "^2.36.1",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "rollup-plugin-sass": "^1.2.2",
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "files": ["dist"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/F3MDEV/mpds-add-field.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/F3MDEV/mpds-add-field/issues"
+  },
+  "homepage": "https://github.com/F3MDEV/mpds-add-field#readme"
+}
